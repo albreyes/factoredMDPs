@@ -1,0 +1,39 @@
+[PropertyInfo]
+actemp,String,false,false, , ,false,<default>
+actions,Vector,false,false, , ,false,<default>
+alfatoken,Vector,false,false, , ,false,<default>
+biblioteca,Vector,false,false, , ,false,<default>
+complete,boolean,false,false, , ,false,<default>
+complete_a,boolean,false,false, , ,false,<default>
+countact,int,false,false, , ,false,<default>
+countt,int,false,false, , ,false,<default>
+countts,int,false,false, , ,false,<default>
+define_var,Vector,false,false, , ,false,<default>
+dreward,Vector,false,false, , ,false,<default>
+error,Vector,false,false, , ,false,<default>
+errores,String,false,false, , ,false,<default>
+i,int,false,false, , ,false,<default>
+memoria,Vector,false,false, , ,false,<default>
+mesg,Vector,false,false, , ,false,<default>
+n,int,false,false, , ,false,<default>
+nameactspi,String,false,false, , ,false,<default>
+nodop,Vector,false,false, , ,false,<default>
+sigact,int,false,false, , ,false,<default>
+spudd,Vector,false,false, , ,false,<default>
+tcol,int,false,false, , ,false,<default>
+te,int,false,false, , ,false,<default>
+terror,int,false,false, , ,false,<default>
+tfil,int,false,false, , ,false,<default>
+tmem,int,false,false, , ,false,<default>
+tmesg,int,false,false, , ,false,<default>
+token,String,false,false, , ,false,<default>
+tokens,StringTokenizer,false,false, , ,false,<default>
+v,int,false,false, , ,false,<default>
+val_var,Vector,false,false, , ,false,<default>
+variables,Vector,false,false, , ,false,<default>
+varnec,Vector,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

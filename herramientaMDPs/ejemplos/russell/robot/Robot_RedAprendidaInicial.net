@@ -1,0 +1,68 @@
+net
+{
+    node_size = (0 0);
+}
+
+node r
+{
+    position = (100 210);
+    states = ("Inter0" "Inter1" "");
+    subtype = interval;
+    state_values = (-300 0 300 500);
+}
+
+node a
+{
+    position = (100 140);
+    states = ("Inter0" "Inter1" "Inter2" "");
+    subtype = interval;
+    state_values = (0 1 2 3 4);
+}
+
+node y
+{
+    position = (100 70);
+    states = ("Inter0" "Inter1" "Inter2" "");
+    subtype = interval;
+    state_values = (0 25000 50000 75000 100000);
+}
+
+node x
+{
+    position = (100 0);
+    states = ("Inter0" "Inter1" "Inter2" "");
+    subtype = interval;
+    state_values = (0 25000 50000 75000 100000);
+}
+
+potential (r | a)
+{
+    data
+     = (( 0.0965234 0.759783 0.143693 )	%  a=Inter0
+	( 0.0963371 0.712912 0.190751 )	%  a=Inter1
+	( 0.0976039 0.719433 0.182963 )	%  a=Inter2
+	( 0.0900167 0.807512 0.102472 ));	%  a=interval(3,4)
+    experience
+     = ( 3816	%  a=Inter0
+	 3813	%  a=Inter1
+	 3784	%  a=Inter2
+	 8591 );	%  a=interval(3,4)
+}
+
+potential (a)
+{
+    data = ( 0.190753 0.190603 0.189153 0.429491 );
+    experience = 20001;
+}
+
+potential (y)
+{
+    data = ( 0.999963 1.24994E-05 1.24994E-05 1.24994E-05 );
+    experience = 20001;
+}
+
+potential (x)
+{
+    data = ( 0.999963 1.24994E-05 1.24994E-05 1.24994E-05 );
+    experience = 20001;
+}

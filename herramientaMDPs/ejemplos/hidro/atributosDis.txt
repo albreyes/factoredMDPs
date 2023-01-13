@@ -1,0 +1,6 @@
+Nivel: S0,S1,S2,S3,S4,S5,S6,S7
+Ac: S0,S1,S2,S3
+Ap: S0,S1,S2,S3,S4
+Et: S0,S1,S2,S3,S4
+Ev: S0,S1,S2
+r: -100,-50,100

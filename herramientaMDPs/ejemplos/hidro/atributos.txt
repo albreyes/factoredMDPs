@@ -1,0 +1,6 @@
+Nivel:real,55,98
+Ac:real,0,218
+Ap:real,0,224
+Et:real,0,121
+Ev:real,0,212
+r: -100,-50,100
