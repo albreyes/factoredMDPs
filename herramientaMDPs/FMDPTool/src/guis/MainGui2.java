@@ -276,7 +276,7 @@ try {
             File path = new File ("");
             String pdf = path.getAbsolutePath();
             
-            File pathPDF = new File(pdf+"\\manual-usuario-ineel.pdf");
+            File pathPDF = new File(pdf+"//manual-usuario-ineel.pdf");
             
             Desktop.getDesktop().open(pathPDF);
         }catch (IOException ex) 
